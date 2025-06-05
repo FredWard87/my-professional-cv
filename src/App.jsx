@@ -2,10 +2,8 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
 
 const theme = createTheme({
   palette: {

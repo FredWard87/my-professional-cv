@@ -1,6 +1,5 @@
 import { AppBar, Toolbar, Typography, Avatar, Box, useScrollTrigger } from '@mui/material';
 import { motion } from 'framer-motion';
-import ProfessionalPhoto from '../../assets/images/professional-photo.jpg';
 
 const Header = () => {
   const trigger = useScrollTrigger({
