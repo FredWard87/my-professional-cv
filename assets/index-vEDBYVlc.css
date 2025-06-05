@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box}.fade-enter{opacity:0}.fade-enter-active{opacity:1;transition:opacity .3s ease-in}.fade-exit{opacity:1}.fade-exit-active{opacity:0;transition:opacity .3s ease-out}.app-container{display:flex;flex-direction:column;min-height:100vh}main{flex:1;padding:20px}
