@@ -18,17 +18,7 @@ const Header = () => {
     >
       <Toolbar sx={{ justifyContent: 'space-between' }}>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
-          <Avatar 
-            src={ProfessionalPhoto} 
-            alt="Foto profesional" 
-            sx={{ 
-              width: 56, 
-              height: 56,
-              border: '2px solid white',
-            }}
-            component={motion.div}
-            whileHover={{ scale: 1.05 }}
-          />
+        
           <Typography variant="h6" component="div">
             Tu Nombre
           </Typography>
